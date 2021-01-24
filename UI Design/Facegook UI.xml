@@ -1,0 +1,45 @@
+﻿<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+    
+    
+    
+     <ImageView
+     android:src="@drawable/fish"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+     android:scaleType="centerCrop"
+     android:layout_marginBottom="8dp"/>
+
+    
+     <TextView
+     android:text="Facegook"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@android:color/white"
+     android:textSize="45sp"
+     android:background="#4689C8"         
+     android:textStyle="bold" 
+     android:paddingTop="16dp"
+     android:paddingLeft="16dp"
+     android:paddingRight="16dp"
+     android:paddingBottom="8dp"/>
+
+     <TextView
+     android:text="Isolate each other."
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@android:color/white"
+     android:textSize="16sp"
+     android:background="#4689C8"
+     android:textStyle="bold" 
+     android:paddingTop="16dp"
+     android:paddingLeft="16dp"
+     android:paddingRight="16dp"
+     android:paddingBottom="8dp"/>
+
+
+</LinearLayout>
